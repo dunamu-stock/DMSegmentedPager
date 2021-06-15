@@ -128,7 +128,7 @@ open class DMScrollView: UIScrollView, UIGestureRecognizerDelegate {
                 self.scrollView(scrollView, setContentOffset: old)
             }
             //Disable bouncing when scroll down
-            if !lock && (contentOffset.y > -contentInset.top || bounces) {
+            if !lock && (contentOffset.y > -contentInset.top || !bounces) {
                 self.scrollView(scrollView, setContentOffset: CGPoint(x: scrollView.contentOffset.x,
                                                                       y: -scrollView.contentInset.top))
             }
