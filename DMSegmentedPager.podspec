@@ -14,7 +14,7 @@ s.source_files  = 'DMSegmentedPager/*.swift'
 s.framework     = 'QuartzCore'
 
 s.dependency 'DMPagerView', '~> 1.2'
-s.dependency 'DMParallaxHeader', :git => 'https://github.com/dunamu-stock/DMParallaxHeader'
+s.dependency 'DMParallaxHeader', '~> 2.1'
 s.dependency 'DMSegmentedControl', '~> 1.2'
 
 end
