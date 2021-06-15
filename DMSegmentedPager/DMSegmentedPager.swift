@@ -64,7 +64,7 @@ open class DMSegmentedPager: UIView, DMScrollViewDelegate, DMPagerViewDelegate, 
         return pager.selectedPage
     }
     
-    public var bouces: Bool {
+    public var bounces: Bool {
         get { return contentView.bounces }
         set { contentView.bounces = newValue }
     }
